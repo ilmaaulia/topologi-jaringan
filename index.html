@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topologi Jaringan</title>
+    <link rel="shortcut icon" href="img/computer-networks.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="nav navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Jaringan Komputer</h1></a>
+					</div>
+				</div>
+            </div>
+        </nav>
+    </header>
+    <main id="content" class="container">
+        <h2 id="title" class="text-center">Topologi Jaringan</h2>
+        <div id="box" class="col-xs-12">
+            <div class="data">
+                <table>
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td>Ilma Aulia</td>
+                    </tr>
+                    <tr>
+                        <td>NIM</td>
+                        <td>:</td>
+                        <td>20833002</td>
+                    </tr>
+                    <tr>
+                        <td>Kelas</td>
+                        <td>:</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>Dosen Pengampu</td>
+                        <td>:</td>
+                        <td>Aceng Ahmad Rodian Susila, M.Pd.</td>
+                    </tr>
+                </table>
+            </div>
+            <hr>
+            <h3>Pengertian Topologi Jaringan</h3>
+            <p>Menurut Syafrizal (2020), topologi jaringan atau arsitektur jaringan adalah gambaran perencanaan hubungan antarkomputer dalam Local Area Netowrk yang umumnya menggunakan kabel (sebagai media transmisi), dengan konektor, ethernet card, dan perangkat pendukung lainnya.</p>
+            <p>Menurut Fandy (2022), Topologi jaringan komputer merupakan teknologi yang mempelajari suatu teknik untuk menghubungkan komputer dengan komputer lainnya, kemudian membentuk sebuah jaringan.</p>
+            <p>Topologi jaringan adalah cara atau bentuk yang digunakan untuk menghubungkan dan mengatur komputer dan perangkat jaringan di dalam sebuah jaringan.</p>
+            
+            <h3>Jenis-jenis Topologi Jaringan</h3>
+            <p>Topologi jaringan terbagi menjadi enam karakter utama, yaitu topologi jaringan bus, topologi jaringan star, topologi jaringan ring, topologi jaringan tree, topologi jaringan mesh, dan topologi jaringan linier.</p>
+            <p>Sebelum mempelajari lebih dalam mengenai keenam topologi tersebut, yuk simak terlebih dahulu video berikut ini.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/t7Zxx8crCAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h4>Topologi Bus</h4>
+            <p>Topologi ini merupakan bentangan satu kabel yang kedua ujungnya ditutup, di mana di sepanjang kabel terdapat node-node. Signal dalam kabel dengan topologi ini dilewati satu arah sehingga memungkinkan sebuah collision terjadi.</p>
+            <img src="img/bus.png" alt="Gambar Topologi Bus">
+            <p class="kelebihan-kekurangan">Kelebihan:</p>
+            <ul type="circle">
+                <li>Murah, karena tidak memakai banyak media. Kabel yang dipakai pun banyak tersedia di pasaran</li>
+                <li>Setiap komputer dapat saling berhubungan secara langsung</li>
+                <li>Jarak LAN tidak terbatas</li>
+                <li>Kecepatan pengirimannya tinggi</li>
+                <li>Tidak memerlukan pengendali pusat</li>
+                <li>Memiliki kemampuan pengembangan dan keterandalan jaringan yang tinggi</li>
+                <li>Jumlah perangkat yang terhubung dapat diubah tanpa menggangu orang lain.</li>
+                <li>Kondusif untuk digunakan sebagai jaringan gedung bertingkan</li>
+            </ul>
+            <p class="kelebihan-kekurangan">Kekurangan:</p>
+            <ul type="circle">
+                <li>Akan macet jika traffic tinggi</li>
+                <li>Operasional jaringan LAN tergantung kepada setiap perangkat</li>
+                <li>Memerlukan repeater untuk memperkuat sinyal</li>
+            </ul>
+            <h4>Topologi Ring</h4>
+            <p>Topologi jaringan yang berupa lingkaran tertutup yang berisi node-node. Signal mengalir dalam dua arah sehingga dapat menghindarkan terjadinya collision sehingga memungkinkan terjadinya pergerakan data yang sangat cepat.</p>
+            <p>Topologi ring ini merupakan topologi di mana setiap perangkat dihubungkan sehingga berbentuk lingkaran.</p>
+            <img src="img/ring.png" alt="Gambar Topologi Ring">
+            <p class="kelebihan-kekurangan">Kelebihan:</p>
+            <ul type="circle">
+                <li>Memiliki kecepatan pengiriman yang tinggi</li>
+                <li>Tidak memerlukan host, harga relatif murah</li>
+                <li>Dapat melayani berbagai mesin pengirim</li>
+                <li>Komunikasi antar terminal mudah</li>
+                <li>Waktu yang diperlukan untuk pengaksesan data optimal</li>
+            </ul>
+            <p class="kelebihan-kekurangan">Kekurangan:</p>
+            <ul type="circle">
+                <li>Kerusakan pada media pengirim dapat mempengaruhi seluruh jaringan</li>
+                <li>Perubahan jumlah perangkan sulit</li>
+                <li>Kerusakan salah satu perangkat menyebabkan kelumpuhan jaringan</li>
+                <li>Tidak baik untuk pengiriman suara, video dan data</li>
+            </ul>
+            <h4>Topologi Star</h4>
+            <p>Topologi star merupakan topologi yang menggunakan banyak kabel, terdapat perangkat pengendali yang berfungsi sebagai pengatur dan pengendali komunikasi data</p>
+            <img src="img/star.png" alt="Gambar Topologi Star">
+            <p class="kelebihan-kekurangan">Kelebihan:</p>
+            <ul type="circle">
+                <li>Mudah dikembangkan</li>
+                <li>Andal</li>
+                <li>Memiliki keamanan data yang tinggi</li>
+                <li>Mudah untuk akses ke jaringan LAN lain</li>
+            </ul>
+            <p class="kelebihan-kekurangan">Kekurangan:</p>
+            <ul type="circle">
+                <li>Jaringan lambat jika traffic tinggi</li>
+                <li>Jaringan sangat bergantung pada perangkat pengendali</li>
+            </ul>
+            <h4>Topologi Linear/Daisy-Chain</h4>
+            <p>Topologi ini merupakan peralihan dari topologi bus dan topologi ring, di mana tiap simpul terhubung langsung ke dua simpul lain melalui segmen kabel, tetapi segmen membentuk saluran, bukan lingkaran utuh. Antar komputer seperti terhubung secara seri.</p>
+            <img src="img/linear.png" alt="Gambar Topologi Linear">
+            <p class="kelebihan-kekurangan">Kelebihan:</p>
+            <ul type="circle">
+                <li>Instalasi dan pemeliharaannya murah</li>
+                <li>Hemat kabel</li>
+                <li>Mudah dikembangkan</li>
+            </ul>
+            <p class="kelebihan-kekurangan">Kekurangan:</p>
+            <ul type="circle">
+                <li>Kurang andal dan tidak sesuai dengan kemajuan zaman</li>
+                <li>Memerlukan repeater untuk jarak jauh</li>
+            </ul>
+            <h4>Topologi Tree/Hierarchical</h4>
+            <p>Topologi ini merupakan generalisasi dari topologi bus, media transmisi berupa kabel yang bercabang tanpa loop tertutup. Topologi tree selalu dimulai pada titik yang disebut headend. Satu atau atau beberapa kabel berasal dari headend.</p>
+            <img src="img/tree.png" alt="Gambar Topologi Tree">
+            <p class="kelebihan-kekurangan">Kelebihan:</p>
+            <ul type="circle">
+                <li>Bersifat terpusat sehingga kontrol manajemen mudah</li>
+                <li>Mudah untuk dikembangkan</li>
+            </ul>
+            <p class="kelebihan-kekurangan">Kekurangan:</p>
+            <ul type="circle">
+                <li>Memerlukanmekanisme untuk mengidentifikasi perangkat yang ingin dituju</li>
+                <li>Memerlukan mekanisme transmisi data untuk menghindari overlapping sinyal jika 2 perangkat mengirim data secara bersamaan</li>
+            </ul>
+            <h4>Topologi Mesh/Full Connected</h4>
+            <p>Topologi ini merupakan gabungan dari beberapa jenis topologi yang lain. Biasanya digunakan pada jaringan yang tidak memiliki terlalu banyak node di dalamnya. Hal ini disebabkan oleh setiap perangkat yang dihubungkan dengan perangkat lainnya.</p>
+            <img src="img/mesh.png" alt="Gambar Topologi Mesh">
+            <p class="kelebihan-kekurangan">Kelebihan:</p>
+            <ul type="circle">
+                <li>Memiliki respon waktu yang cepat</li>
+                <li>Tidak memerlukan protocol tambahan karena tidak ada fungsi switching</li>
+            </ul>
+            <p class="kelebihan-kekurangan">Kekurangan:</p>
+            <ul type="circle">
+                <li>Memerlukan biaya yang cukup mahal</li>
+            </ul>
+            
+            <h3>Manfaat Topologi Jaringan</h3>
+            <p>Topologi jaringan komputer menjadikan sebuah sistem networking menjadi lebih terstruktur, terancang dan jelas. Berikut merupakan manfaat-manfaat dari perancangan topologi jaringan.</p>
+            <ul type="circle">
+                <li>Arah jalur internet menjadi jelas. Jadi, memudahkan network engineer untuk melakukan konfigurasi.</li>
+                <li>Dapat meminimalisir biaya instalasi jaringan karena semua sudah dihitung dengan matang dalam topologi jaringan. Jadi, minim kemungkinan perangkat kelebihan maupun kurang.</li>
+                <li>Memudahkan dalam maintenance maupun upgrade di sisi network engineer karena semua telah terstruktur dengan rinci. Pemberian label di setiap kabel juga akan menjadi nilai plus.</li>
+                <li>Penggunaan menjadi sangat mudah di sisi user karena semua bisa saling berkomunikasi dengan baik.</li>
+            </ul>
+
+            <h3>Cara Memilih Topologi yang Tepat</h3>
+            <p>Cara yang tepat untuk memilih topologi jaringan yaitu dengan memperhatikan beberapa faktor. Berikut ini merupakan faktor-faktor yang harus diperhatikan dalam memilih topologi jaringan.</p>
+            <ul type="circle">
+                <li>Biaya</li>
+                <li>Kecepatan</li>
+                <li>Lingkungan</li>
+                <li>Konektivitas</li>
+                <li>Skalabilitas</li>
+            </ul>
+
+            <h5>Sumber:</h5>
+            <p>Fandy. (2022). Topologi Jaringan Komputer: Pengertian, Manfaat, dan Jenis-Jenisnya. Gramedia Literasi. Tersedia: <a href=" https://www.gramedia.com/literasi/topologi-jaringan-komputer/"> https://www.gramedia.com/literasi/topologi-jaringan-komputer/</a>. Diakses [20 Februari 2023].</p>
+            <p>Syafrizal, M. (2020). Pengantar Jaringan Komputer. Yogyakarta: Penerbit Andi.</p>
+            <p>Sutoyo, R. (2015). Mari Belajar Mengenai Topologi Jaringan. Tersedia: <a href="https://www.youtube.com/watch?v=t7Zxx8crCAA">https://www.youtube.com/watch?v=t7Zxx8crCAA</a>. Diakses [20 Februari 2023].</p>
+        </div>
+    </main>
+    <footer>
+		<p class="copyright text-center">&copy; 2023 Copyright. <a href="https://linkedin.com/in/ilmaaulia" target="_blank">Ilma Aulia</a>.</p>
+	</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
